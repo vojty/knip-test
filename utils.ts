@@ -1,6 +1,11 @@
-export const PRESETS = [
-  'today',
-  'last7Days',
-] as const;
+// this should be reported as unused but it's not
+// last working version is knip 5.77.4
+export type Address = {
+  street: string;
+  city: string;
+}
 
-export type DatePreset = (typeof PRESETS)[number];
+export type UserInfo = {
+  name: string;
+  address: Address;
+}

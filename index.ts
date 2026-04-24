@@ -1,3 +1,9 @@
-import type { DatePreset } from './utils.ts'
+import type { UserInfo } from './utils.ts'
 
-export const a: DatePreset = 'today';
+export const a: UserInfo = {
+  name: "John Doe",
+  address: {
+    street: "123 Main St",
+    city: "Anytown"
+  }
+};
