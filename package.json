@@ -7,9 +7,9 @@
   "type": "module",
   "main": "index.ts",
   "scripts": {
-    "knip": "knip"
+    "knip": "knip --reporter markdown"
   },
-  "dependencies": {
-    "knip": "5.77.4"
+  "devDependencies": {
+    "knip": "^6.6.3"
   }
 }
